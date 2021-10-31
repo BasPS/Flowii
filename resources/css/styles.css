@@ -1,0 +1,192 @@
+/* Universal Styles */
+
+html {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.center {
+    text-align: center;
+}
+
+main,
+footer {
+    position: relative;
+    top: 80px;
+}
+
+/* Header */
+
+header {
+    background-color: #508991;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+header .content {
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+    font-family: "Gamja Flower", monospace;
+    font-size: 3rem;
+    flex: 1;
+}
+
+header a {
+    color: white;
+}
+
+header ul {
+    display: flex;
+}
+
+nav li {
+    padding-left: 3rem;
+}
+
+nav a {
+    color: white;
+    font-size: 1.2rem;
+}
+
+/* Banner Section */
+
+#banner {
+    height: 500px;
+    background-image: url("../images/annie-spratt-8mqOw4DBBSg-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+#banner .content {
+    background-color: white;
+    opacity: 0.8;
+    width: 100%;
+    padding: 1rem;
+}
+
+#banner h2 {
+    font-size: 4rem;
+}
+
+#banner h3 {
+    font-size: 1.75rem;
+}
+
+/* Portfolio Section */
+
+#port {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 4rem 5%;
+    background-color: #E2EBF4;
+}
+
+.box {
+    background-color: white;
+    flex: 1;
+    padding: 1.5rem 1rem;
+    margin: 1.25rem;
+    min-width: 300px;
+}
+
+#port figure {
+    width: 90%;
+    height: 65%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#port figure img {
+    max-width: 100%;
+    display: block;
+}
+
+#port .content {
+    padding: 1.5rem;
+}
+
+#port .content h4 {
+    font-size: 2.5rem;
+    font-family: 'Indie Flower';
+    padding-bottom: 1rem;
+}
+
+#port .content p {
+    font-size: 1rem;
+}
+
+/* Our Team Section */
+
+#team {
+    background-color: #082121;
+}
+
+#team .container {
+    padding: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+#team .card {
+    margin: 2rem;
+    padding: 1rem;
+    width: 300px;
+}
+
+#team .card figure{
+    overflow: hidden;
+    width: 90%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#team .content {
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+#team .content h5 {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#team .content p {
+    font-size: 1.25rem;
+}
+
+/* Contact Section */
+
+#contact {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.75rem;
+    line-height: 3;
+}
+
+/* Footer Section */
+
+footer {
+    height: 10px;
+    padding: 2rem;
+    background-color: #02271C;
+    color: white;
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
